@@ -1,0 +1,712 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 2201
+>>
+stream
+0.57 w
+0 G
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 813.54 Td
+({) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(  "version": "1.0.0621",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(  "billLists": [) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(    {) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(      "userGstin": "27AAFCV2449G1Z7",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(      "supplyType": "O",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(      "subSupplyType": 1,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(      "docType": "INV",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(      "docNo": "7",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(      "docDate": "16/12/2024",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(      "transType": 1,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(      "fromGstin": "27AAFCV2449G1Z7",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(      "fromTrdName": "V K Control System Private Limited",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(      "fromAddr1": "302, Somnath Apartment Surabhi-Layout, Tapovan Road, Camp",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(      "fromAddr2": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(      "fromPlace": "Amravati",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(      "fromPincode": 444602,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(      "fromStateCode": 27,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(      "actualFromStateCode": 27,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(      "toGstin": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(      "toTrdName": "INTERIO INTERIORS",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(      "toAddr1": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(      "toAddr2": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(      "toPlace": "Hyderabad",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+(      "toPincode": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(      "toStateCode": 28,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(      "actualToStateCode": 28,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(      "totalValue": 1000,) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 2161
+>>
+stream
+0.57 w
+0 G
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 813.54 Td
+(      "cgstValue": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(      "sgstValue": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(      "igstValue": 180,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(      "cessValue": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(      "TotNonAdvolVal": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(      "OthValue": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(      "totInvValue": 1180,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 615.12 Td
+(      "transMode": "1",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 586.77 Td
+(      "transDistance": 200,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 558.43 Td
+(      "transporterName": "Subway Transporter",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 530.08 Td
+(      "transporterId": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 501.73 Td
+(      "transDocNo": "1",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 473.39 Td
+(      "transDocDate": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 445.04 Td
+(      "vehicleNo": "mh15d4567",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 416.69 Td
+(      "vehicleType": "R",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 388.35 Td
+(      "mainHsnCode": "12345678",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 360.00 Td
+(      "itemList": [) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 331.65 Td
+(        {) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 303.31 Td
+(          "itemNo": 1,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 274.96 Td
+(          "productName": "0 test product",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 246.61 Td
+(          "productDesc": "",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 218.27 Td
+(          "hsnCode": "12345678",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 189.92 Td
+(          "quantity": 1,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 161.58 Td
+(          "qtyUnit": "BOX",) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 133.23 Td
+(          "taxableAmount": 1000,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 104.88 Td
+(          "sgstRate": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 76.54 Td
+(          "cgstRate": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 48.19 Td
+(          "igstRate": 18,) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 443
+>>
+stream
+0.57 w
+0 G
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 813.54 Td
+(          "cessRate": 0,) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 785.20 Td
+(          "cessNonAdvol": 0) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 756.85 Td
+(        }) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 728.50 Td
+(      ]) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 700.16 Td
+(    }) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 671.81 Td
+(  ]) Tj
+ET
+BT
+/F1 16 Tf
+18.40 TL
+0 g
+28.35 643.46 Td
+(}) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 1.5.3)
+/CreationDate (D:20241217154213+05'30')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000005302 00000 n 
+0000007135 00000 n 
+0000000015 00000 n 
+0000000124 00000 n 
+0000002377 00000 n 
+0000002486 00000 n 
+0000004699 00000 n 
+0000004808 00000 n 
+0000005371 00000 n 
+0000005496 00000 n 
+0000005627 00000 n 
+0000005761 00000 n 
+0000005899 00000 n 
+0000006023 00000 n 
+0000006152 00000 n 
+0000006284 00000 n 
+0000006420 00000 n 
+0000006548 00000 n 
+0000006675 00000 n 
+0000006804 00000 n 
+0000006937 00000 n 
+0000007039 00000 n 
+0000007387 00000 n 
+0000007473 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <A0A21B5BA16B1CE4A6F4CA2293F24FB4> <A0A21B5BA16B1CE4A6F4CA2293F24FB4> ]
+>>
+startxref
+7577
+%%EOF
