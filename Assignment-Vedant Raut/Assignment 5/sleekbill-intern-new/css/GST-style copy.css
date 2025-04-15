@@ -1,0 +1,42 @@
+
+
+
+.siderbar-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.siderbar-links li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 30%; /* Adjust width to fit your needs */
+}
+
+.siderbar-links img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for Social Profiles */
+.social-profiles ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-profiles li {
+    margin: 0 10px;
+}
+
+.social-profiles img {
+    width: 30px;
+    height: 30px;
+}
