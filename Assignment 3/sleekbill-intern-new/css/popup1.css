@@ -1,0 +1,476 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.custom-link {
+    display: inline-block; /* Ensures padding works properly */
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: white; /* Text is white initially */
+    font-size: 16px;    font-weight: 600; 
+    text-transform: uppercase;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family:  'Open Sans', sans-serif;
+}
+
+/* Hover effect for the link */
+.custom-link:hover  {
+    background-color: white; /* Background changes to white */
+    color: #2e82d6 ;/* Text changes to blue */
+    border-radius: 25px;
+    padding: 10px 25px;
+
+    border-radius: 25px;
+    font-size: 16px;    font-weight: 600; 
+    text-transform: uppercase;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family:  'Open Sans', sans-serif;
+}
+
+/* ensure  button and link are not hide by image */
+.primary-cta, .custom-link {
+    position: relative; /* Ensures the buttons are above other content */
+    z-index: 10; /* Ensure buttons appear above other elements */
+}
+
+.primary-cta:hover, .custom-link:hover {
+    cursor: pointer; /* Adds hover effect */
+}
+
+
+
+.sticky-note {
+        position: fixed;
+        top: 70%;
+        right: 0;
+        transform: translateY(90%);
+        background-color: #FFA518;
+        color: #ffffff;
+        padding: 15px;
+        border-radius:5px 0 0 5px;
+        font-size: 16px;
+        font-weight: bold;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .sticky-note:hover {
+        background-color: #0056b3;
+    }
+
+    .sticky-note a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .sticky-note a:hover {
+        text-decoration: underline;
+    }
+
+
+
+   
+    .popup-overlay {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: none; /* Remove gray overlay */
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+   
+
+
+    .popup-content {
+        background: #fff;
+       
+        border-radius: 10px;
+        width: auto;
+        height: 75%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+
+    /* Close button styling */
+    .close-button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .popup-content img {
+								
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
+    .popup-content .smartclose-btn {
+        position: absolute;
+        padding: 10px;
+        top: 0px;
+        right: 0px;
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .popup-content .close-btn:hover {
+        background-color: #a71d2a;
+    }
+
+
+
+    /* Responsive iframe with no padding or margin */
+   .embedded-form {
+        width: 400px;
+        height: 700px; /* Fill the popup height */
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+/* Popup overlay */
+.popup-overlay1 {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure it covers full screen */
+    background: none; /* Remove gray overlay */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+/* Popup content styling */
+.popup-content1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px; /* Set fixed width for desktop */
+    max-width: 800px; /* Max width for larger screens */
+    height: 650px; /* Adjust height to fit the screen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden; /* Prevent scrollbars in popup */
+    margin: 0; /* Remove any default margins */
+}
+
+/* Embedded form (iframe) styling */
+.embedded-form1 {
+    width: 100%; /* Make iframe take full width of popup */
+    height: 100%; /* Make iframe take full height of popup */
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive adjustments for smaller screens (tablets and mobile) */
+@media (max-width: 1024px) {
+    /* For smaller tablets (1024px and below) */
+    .popup-content1 {
+        width: 80%; /* Reduce width slightly */
+        height: 70%; /* Reduce height slightly */
+        max-width: 700px; /* Set a max width */
+    }
+    .popup-content {
+        width: 80%; /* Reduce width slightly */
+        height: 70%; /* Reduce height slightly */
+        max-width: 700px; /* Set a max width */
+    }
+
+    .embedded-form1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .embedded-form {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* For tablets and below (768px and below) */
+    .popup-content1 {
+        width: 85%; /* Increase width to 85% for tablets */
+        height: 70%; /* Reduce height */
+        max-width: 600px; /* Max width for tablets */
+    }
+    .popup-content1 {
+        width: 85%; /* Increase width to 85% for tablets */
+        height: 70%; /* Reduce height */
+        max-width: 600px; /* Max width for tablets */
+    }
+
+    .embedded-form1 {
+        width: 100%;
+       
+        height: 100%;
+    }
+
+    .embedded-form1 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .popup-content1 {
+        width: 90%; /* Popup takes up 90% width on smaller mobile devices */
+        height: 800px; /* Popup height adjusts for mobile */
+        padding: 5px;
+    }
+    .popup-content {
+        width: 90%; /* Popup takes up 90% width on smaller mobile devices */
+        height: 800px; /* Popup height adjusts for mobile */
+        padding: 5px;
+    }
+
+    .embedded-form1 {
+        width: 100%; /* Full-width iframe */
+        height: 100%; /* Full-height iframe */
+    }
+
+
+    .embedded-form {
+        width: 100%; /* Full-width iframe */
+        height: 100%; /* Full-height iframe */
+    }
+}
+
+
+
+
+    .content {
+        text-align: center; /* Center align the content */
+        margin: 50px 0; /* Add spacing around the button */
+    }
+
+    /* Center-aligned button */
+    .center-button {
+        display: none; /* Initially hidden */
+        background-color: #48DE75; /* Blue background */
+        color: white; /* White text color */
+        border: none; /* No border */
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+        position: fixed; /* Stay fixed relative to the viewport */
+        top: 95%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for the button's own dimensions */
+        padding: 5px 40px; /* Padding for the button */
+        z-index: 1000;
+    }
+
+    /* Add hover effect */
+    .center-button:hover {
+        background-color: #22a549; /* Darker blue on hover */
+        color: white;
+		Style: none;
+    }
+
+    /* Page content for demonstration */
+    .long-content {
+        height: 2000px; /* Long page to enable scrolling */
+        background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+    }
+
+    .smartpopup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    /* Pop-up Content */
+    .smartpopup-content {
+        background: #fff;
+       
+        border-radius: 10px;
+        width: 75%;
+        height: 75%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+
+    .smartpopup-content img {
+                            
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .smartpopup-content .close-btn {
+        position: absolute;
+        padding: 10px;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        color: #dc3545;
+        border: none;
+        padding: 5px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    .smartpopup-content .close-btn:hover {
+        background-color: #dc3545;
+    }
+
+    .popup-content .smartclose-btn {
+        position: absolute;
+        padding: 10px;
+        top: 0px;
+        right: 0px;
+        background-color: #dc3545;
+        color: #fff;
+        border: none;
+        padding: 5px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+
+    /* desktop version button code  */
+
+   /* Responsive styles for tablets and smaller devices */
+@media (max-width: 768px) { /* Tablets */
+    .custom-link {
+        padding: 8px 20px; /* Reduce padding */
+        font-size: 14px; /* Smaller font size */
+        border-radius: 20px; /* Adjust rounded corners */
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+    .custom-link {
+        padding: 6px 15px; /* Further reduce padding */
+        font-size: 12px; /* Even smaller font size */
+        border-radius: 15px; /* More compact rounded corners */
+        width: 100%; /* Make it take full width on small screens */
+        box-sizing: border-box; /* Ensure padding doesn't exceed width */
+        text-align: center; /* Center text */
+    }
+}
+
+.no-hover a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.desktop-btn {
+    border: 2px solid #48de75;
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: background-color 0.5s ease;
+}
+
+/* Style for the <a> element */
+.desktop-btn a {
+    color: white;
+    font-weight: 600; /* Corrected, no "px" for font-weight */
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .popup-content .smartclose-btn {
+        padding: 5px;
+        font-size: 14px;
+
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .popup-content {
+        width: 90%;
+        height: 30px; 
+    }
+
+    
+    .popup-content .smartclose-btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+   
+
+
+}
+
+@media(max-width: 1024px){
+    .popup-content {
+        width: 100%;
+        height: 70%; 
+    }
+
+   
+}
+
+@media (max-width: 480px) {
+    .smartpopup-overlay {
+        width: 100%;
+        height:auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    
+    .popup-content .smartclose-btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+}
+
