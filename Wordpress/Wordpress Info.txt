@@ -1,0 +1,20 @@
+Wordpress Info:
+
+project name: VSR_Project
+DB NAme : wordpress_db
+
+databse:wordpress_db
+username:root
+password:leave black
+host:localhost
+
+
+Site Title : vsr_website
+username :vedantsunilraut
+password :vedantsunilraut@121102
+email : vedantsunilraut@gmail.com
+
+Login Detailes for Wordpress:
+username:vedantsunilraut
+password : vedantsunilraut@121102
+email:vedantsunilraut@gmail.com
