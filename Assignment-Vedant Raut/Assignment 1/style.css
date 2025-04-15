@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #0c5eb1;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-buttons a {
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.login {
+  border: 2px solid white;
+  color: white;
+}
+
+.signup {
+  background-color: #f7a100;
+  color: white !important;
+}
+
+/* Hero Section */
+.hero {
+  background-color: rgb(64 122 206);
+  padding: 80px 0;
+  color: white;
+}
+
+.hero-content {
+  max-width: 1200px;
+  height: 25vh;
+  margin: 15px auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.primary-cta {
+  display: inline-block;
+  background-color: #48de75;
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border-radius: 25px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.primary-cta:hover {
+  background-color: #d78c00;
+}
+
+.cta-disclaimer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.hero-img {
+  position: relative;
+  width: 800px;
+  right: 14rem;
+  top: 3rem;
+}
+/* GST Theory */
+.gst-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: flex;
+  gap: 2px;
+}
+.gst-theory {
+  width: 65%;
+  /* height: 50vh; */
+}
+.gst-theory p {
+  color: #333333;
+  line-height: 30px;
+  font-size: 15px;
+}
+.gst-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 34%;
+  /* height: 30vh; */
+}
+.gst-info p {
+  text-align: left;
+  left: 25px;
+  color: #333333;
+  font-size: 1.17em;
+}
+.gst-info {
+  width: 400px;
+  background: white;
+  padding: 20px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.card {
+  background: white;
+  border-radius: 2px;
+  /* overflow: hidden; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: #333333;
+}
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+/* Brand Colors */
+.social-icons a[href*="facebook.com"] {
+  color: #1877f2; /* Facebook Blue */
+}
+
+.social-icons a[href*="twitter.com"] {
+  color: #000000; /* X (Twitter) Black */
+}
+
+.social-icons a[href*="linkedin.com"] {
+  color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-icons a[href*="youtube.com"] {
+  color: #ff0000; /* YouTube Red */
+}
+
+/* Hover Effects */
+.social-icons a:hover {
+  opacity: 0.8;
+}
+/* Section Styling */
+/* Section Styling */
+.black {
+  background: #1d1d1d url("./img/black-background.png") no-repeat center
+    center/cover;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading */
+.black h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.black p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+/* CTA Button */
+.primary-cta {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out;
+}
+
+.primary-cta:hover {
+  background-color: #45a049;
+}
+
+/* Small Text */
+.small-text {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #999;
+}
+/* Customer Section */
+.customer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.customer p {
+  margin-top: 80px;
+  font-size: 35px;
+  color: #333333;
+}
+.customerInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  gap: 2px; /* Increased gap for better spacing */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.cinfo {
+  width: 350px; /* Set a fixed width for consistency */
+  text-align: center;
+  /* background: #f9f9f9; */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.cinfo img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px; /* Centers the image */
+}
+
+.cinfo p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+.c-place {
+  font-size: 15px;
+  color: #1877f2;
+  margin-bottom: 35px;
+}
+
+.c-nameone {
+  margin-top: 45px;
+}
+.c-nametwo {
+  margin-top: 90px;
+}
+.c-namethird {
+  margin-top: 155px;
+}
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: white;
+}
+
+.security-badge img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.awards img {
+  width: 100px;
+  margin: 10px;
+}
